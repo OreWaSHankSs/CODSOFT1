@@ -1,0 +1,140 @@
+.kaushan-script-regular {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 60px;
+    margin-left: 600px;
+    color:rgb(235, 185, 92);
+    text-decoration: double;
+  }
+  
+.top-bar-icon{
+width:700px;
+}
+   
+.top-bar-details{
+    justify-content: space-between;
+    margin-left: 250px;
+
+}
+body{
+    background-color: black ;
+    margin:0px;
+    display: flex;
+    flex-direction: column;    
+
+}
+.top-bar{
+    background-color: rgb(60, 187, 196);
+    display: flex;
+    flex:  1fr;
+    height: 110px;
+    align-items: center;
+    position:fixed;
+    width: 1800px;
+}
+.navbar{
+    margin-right: 60px;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(60, 187, 196);;
+    border-color: white;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    border-width: 1px;
+}
+.navbar:hover{
+    color:blue;
+    text-decoration: underline;
+}
+.intro{
+    color: white;
+    line-height: 30px;
+    word-spacing: 8px;
+    width:600px;
+    margin-top:75px;
+    font-size: 23px;
+    display: flex;
+    margin-right: 50px;
+}
+.intro-img{
+    width: 500px;
+    border-radius:200px;
+    vertical-align: text-top;
+    padding-left: 100px;
+   
+}
+.bio{
+    margin-left: 150px;
+    padding-top: 250px;
+    font-size: large;
+    display: flex;
+}
+
+P{
+    color: white;
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.projects-arrow{
+   font-size: 30px;
+   font-weight: bold;
+   color:rgb(156, 173, 250);
+   background: none;
+   border: none;
+   width: 30px;
+  margin-top: -26px;
+
+}
+.contact-icons{
+    width:35px;
+    height:40px;
+    margin-right:10px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.contact-info{
+    margin-right: 50px;
+    color: rgb(225, 135, 228);
+    text-decoration: underline;
+}
+.contact{
+    display: flex;
+    cursor: pointer;
+}
+.About-me{
+    color: white;
+    margin-top: 100px;
+    font-size: 50px;
+    padding-top: 70px;
+    color: rgb(207, 61, 93);
+    font-family: "Charm", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.all{
+    position: relative;
+}
+.content{
+    z-index: 100;
+    position: absolute;
+}
+.background{
+    position: absolute;
+}
+.background-img{
+    left:0;
+    right:0;
+    top:110px;
+    z-index: 0;
+    opacity: 0.04;
+    width: 100%;
+    height: 333vh;
+}
+
+
+  
