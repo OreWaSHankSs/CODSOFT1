@@ -1,0 +1,26 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .top-bar {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        height: auto;
+    }
+    .navbar {
+        margin-left: 0; /* Remove left margin */
+        margin-right: 0; /* Remove right margin */
+    }
+    .intro-img {
+        width: 100%; /* Make image responsive */
+        padding-left: 0; /* Remove padding */
+    }
+    .bio {
+        margin-left: 0; /* Adjust margin for smaller screens */
+    }
+    .contact {
+        flex-direction: column; /* Stack contact items vertically */
+        align-items: center; /* Center align items */
+    }
+}
