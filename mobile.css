@@ -9,8 +9,7 @@ img {
         height: auto;
     }
     .navbar {
-        margin-left: 0; /* Remove left margin */
-        margin-right: 0; /* Remove right margin */
+        margin: 5px 0;
     }
     .intro-img {
         width: 100%; /* Make image responsive */
