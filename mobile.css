@@ -10,6 +10,7 @@ img {
     }
     .navbar {
         margin: 5px 0;
+        font-size:18px;
     }
     .intro-img {
         width: 100%; /* Make image responsive */
