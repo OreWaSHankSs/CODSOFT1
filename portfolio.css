@@ -28,11 +28,12 @@ body{
 .top-bar{
     background-color: rgb(60, 187, 196);
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     height: 110px;
     align-items: center;
     position:fixed;
     width: 100%;
+    justify-content:space-between;
 }
 .navbar{
     margin-right: 60px;
