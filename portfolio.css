@@ -28,7 +28,7 @@ body{
 .top-bar{
     background-color: rgb(60, 187, 196);
     display: flex;
-    flex:  1fr;
+    flex-wrap: wrap;
     height: 110px;
     align-items: center;
     position:fixed;
