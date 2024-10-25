@@ -32,7 +32,7 @@ body{
     height: 110px;
     align-items: center;
     position:fixed;
-    width: 1800px;
+    width: 100%;
 }
 .navbar{
     margin-right: 60px;
