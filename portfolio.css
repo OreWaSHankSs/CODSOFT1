@@ -36,7 +36,7 @@ body{
     justify-content:space-between;
 }
 .navbar {
-    margin-right: 10px; /* Reduced margin */
+    margin-right: 20px; /* Reduced margin */
     padding: 10px 15px;
     font-size: 20px;
     font-weight: bold;
@@ -44,7 +44,6 @@ body{
     border-color: white;
     cursor: pointer;
     color: black;
-    text-decoration: none;
     border-width: 1px;
     max-width: 120px; /* Optional: limit button width */
 }
