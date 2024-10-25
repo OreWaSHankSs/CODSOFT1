@@ -35,17 +35,19 @@ body{
     width: 100%;
     justify-content:space-between;
 }
-.navbar{
-    margin-right: 60px;
+.navbar {
+    margin-right: 10px; /* Reduced margin */
     padding: 10px 15px;
     font-size: 20px;
     font-weight: bold;
-    background-color: rgb(60, 187, 196);;
+    background-color: rgb(60, 187, 196);
     border-color: white;
     cursor: pointer;
     color: black;
     text-decoration: none;
     border-width: 1px;
+    max-width: 120px; /* Optional: limit button width */
+}
 }
 .navbar:hover{
     color:blue;
